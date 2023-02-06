@@ -16,7 +16,7 @@ flow = prefect.Flow.from_yaml(flow_file)
 github_storage = GitHub(
     repo="https://github.com/PaulCaballero/DTC-DE-Zoomcamp-Prefect",
     path="flows/02_gcp/etl_web_to_gcs.py",
-    secrets=["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"],
+    secrets=[""],
     ref="master"
 )
 
